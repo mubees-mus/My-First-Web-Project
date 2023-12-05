@@ -1,0 +1,125 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,200;1,500&family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: 'Noto Serif', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark:black;
+    --white: white;
+    --brown:brown;
+    --red:red;
+}
+
+.navbar .navbar-brand img{
+    height: 40px;
+}
+
+
+.navbar .navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.4px;
+}
+
+.w-100-height{
+    width: 100%;
+    height: 100vh;
+}
+.carousel-item{
+    min-height: 300px;
+}
+.carousel-caption{
+    text-align: left;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 40px;
+    color: grey;
+    font-style: oblique;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+.carousel-caption{
+    font-weight: 900;
+    color: black;
+    font-style: oblique;
+    font-size: 20px;
+    line-height: 1.9;
+}
+ .carousel-item .carousel-caption input{
+    padding: 0.73rem 1rem;
+}
+.carousel-inner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+.icon{
+    font-size: 40px;
+    font-weight: 700;
+    background: transparent;
+    border: 1px solid white;
+    width: 80px;
+    line-height: 1.8;
+    border-radius: 50%;
+}
+.card-bottom{
+    right: 0;
+    margin-top: -178px;
+}
+.card-text{
+    color: #aeaeae;
+}
+
+
+@media screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+        letter-spacing: 0;
+        line-height: normal;
+    }
+}
+/* Popular Section */
+.popular{
+    padding-top: 50px;
+}
+.services.row1{
+    background-color: #cad5dc;
+}
+.row1 .content{
+    padding-top: 50px;
+}
+.content h2{
+    color: red;
+    font-style: oblique;
+    font-weight: 700;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
